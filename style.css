@@ -1,0 +1,225 @@
+div#main{
+    width:96%;
+    margin:0 auto;
+    max-width:1000px;
+}
+
+img#logo{
+    position:relative;
+    float:right;
+    width:150px;
+    margin-top: 25px;
+}
+
+div#return{
+    position:fixed;
+    bottom: 0;
+    right:0;
+    display: block;
+    border-style: solid;
+    border-color: #00AEF5;
+    width:auto;
+    height:auto;
+    padding:1rem 1rem;
+    font-family: Helvetica, sans-serif;
+    font-size: 0.8rem;
+    background: white;
+    text-align: center;
+}
+
+.clear{
+    clear:both;
+}
+
+.graph{
+    width:30%;
+    max-width: 300px;
+    float: right;
+    margin:1rem 1rem 1rem 1rem;
+}
+
+.biggraphtitle{
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: lighter;
+    color:#00AEF5;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.footnote{
+    font-family: 'Cormorant Garamond', serif;
+    font-size:0.5rem;
+    text-align: center;
+}
+
+.biggraph{
+    width:80%;
+    max-width: 800px;
+    margin:1rem 1rem 1rem 1rem;
+}
+
+.graphtitle{
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: lighter;
+    color:#00AEF5;
+    margin-top: -2%;
+    margin-bottom: auto;
+}
+
+.addinfotitle{
+    margin-top: -0.2%;
+    font-family: Helvetica,Arial,sans-serif;
+    color:#00AEF5;
+    margin-bottom: auto;
+}
+
+.addinfo{
+    font-family: 'Cormorant Garamond', serif;
+    background:#F0F6FB;
+    font-size:0.9rem;
+    padding:1rem 1rem 1rem 1rem;
+}
+
+.label{
+    font-family: Helvetica,Arial,sans-serif;
+    font-size:0.8rem;
+    color:#00AEF5;
+}
+
+.link{
+    color:#00AEF5;
+    text-decoration: none;
+}
+
+.link a:hover{
+    text-decoration: underline;
+}
+
+
+h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-size:2.5rem;
+    font-weight: 700;
+    position: relative;
+}
+
+h3{
+   font-family: 'Cormorant Garamond', serif;
+    font-size:1.1rem;
+    color:black;; 
+}
+
+article section{
+    width:28%;
+    margin-right:2%;
+    margin-left: -4%;
+    float: left;
+}
+
+/* how to make the nav fixed when scroll up?*/
+
+
+nav ul li a{
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size:0.8rem;
+    color:black;
+    text-decoration: none;
+    padding-bottom: 2rem;
+    padding-top:0.3rem;
+    display: block;
+    border-top-style:ridge;
+    border-top-color: black;
+    border-top-width: thin;
+
+}
+
+nav ul li a:hover{
+    color: #00AEF5;
+    border-top-style: solid;
+    border-top-width:thick;
+    border-top-color: #00AEF5;
+    transition:0.2s linear all;
+    transition-delay: 0.1s all;
+}
+
+nav ul li ul li{
+    height: 0;
+    overflow: hidden;
+    position:relative;
+}
+
+nav ul li:hover ul li{
+    display:block;
+    transform: 0.3s linear all;
+    padding-bottom: 2.5rem;
+    padding-top:0.3rem;
+}
+
+/* ul li a:hover ul li   doesn't work */
+
+h2{
+    font-family: 'Cormorant Garamond', serif;
+}
+
+h5{
+    font-family: 'Cormorant Garamond', serif;
+}
+
+
+article aside{
+    width:70%;
+    font-family: 'Cormorant Garamond', serif;
+    float:right;
+    position:relative;
+}
+
+footer{
+    font-family: 'Cormorant Garamond', serif;
+    font-size:1rem;
+}
+
+footer section{
+    width:30%;
+    position: absolute;
+}
+
+footer aside{
+    width:70%;
+    float:right;
+    position: relative;
+}
+
+div#return a{
+    text-decoration: none;
+    color:black;
+}
+
+@media screen and (max-width: 500px){
+    article section{
+        float: none;
+        width: 100%;
+    }
+    
+      article aside{
+        float: none;
+        width: 100%;
+    }
+    
+      footer section{
+        float: none;
+        width: 100%;
+          position: relative;
+    }
+    
+      footer aside{
+        float: none;
+        width: 100%;
+        position:relative;
+    }
+    
+    
+    
+    
+    
+}
